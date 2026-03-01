@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|c:\\users\\je4vo\\documents\\github\\clincproject2\\clinicproject2\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,8 +34,7 @@
               "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T02:17:48.716Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T02:17:48.716Z"
             },
             {
               "$type": "Document",
@@ -45,7 +44,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControl.cs",
               "ToolTip": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\PlayerControl.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T01:49:28.643Z",
               "EditorCaption": ""
