@@ -36,7 +36,7 @@ public class PlayerControl : MonoBehaviour
         Jump();
     }
 
-    // -- Player Movement --
+    // -- Player Movement Function -- //
     void PlayerMove()
     {
         //-- Check if the player is near the ground by creating a sphere and seeing how close it is from the ground --
@@ -49,7 +49,7 @@ public class PlayerControl : MonoBehaviour
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             // -- Prevent player character from falling off the edge --
-            if (transform.position.x > leftBound)
+            if (transform.position.x > leftBound && isGrounded)
             {
                 controller.Move(Vector3.left * Time.fixedDeltaTime * movement);
             }
@@ -57,7 +57,7 @@ public class PlayerControl : MonoBehaviour
         // -- Move right --
         if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
-            if (transform.position.x < rightBound)
+            if (transform.position.x < rightBound && isGrounded)
             {
                 controller.Move(Vector3.right * Time.fixedDeltaTime * movement);
             }
@@ -70,9 +70,10 @@ public class PlayerControl : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
     }
 
+    // -- Player Jump Function -- //
     void Jump()
     {
-        if (Input.GetKey(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.W) && isGrounded || Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
         }

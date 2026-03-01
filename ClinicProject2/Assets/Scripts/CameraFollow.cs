@@ -15,6 +15,5 @@ public class CameraFollow : MonoBehaviour
     void FixedUpdate()
     {
         transform.position = player.position + offset;
-
     }
 }
