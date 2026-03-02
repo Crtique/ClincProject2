@@ -43,7 +43,7 @@ public class PlayerControl : MonoBehaviour
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         // -- Move Player object forward --
-        controller.Move(Vector3.forward * Time.fixedDeltaTime * speed);
+        controller.Move(Vector3.forward * Time.deltaTime * speed);
 
         // -- Move Left --
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
@@ -51,7 +51,7 @@ public class PlayerControl : MonoBehaviour
             // -- Prevent player character from falling off the edge --
             if (transform.position.x > leftBound && isGrounded)
             {
-                controller.Move(Vector3.left * Time.fixedDeltaTime * movement);
+                controller.Move(Vector3.left * Time.deltaTime * movement);
             }
         }
         // -- Move right --
@@ -59,7 +59,7 @@ public class PlayerControl : MonoBehaviour
         {
             if (transform.position.x < rightBound && isGrounded)
             {
-                controller.Move(Vector3.right * Time.fixedDeltaTime * movement);
+                controller.Move(Vector3.right * Time.deltaTime * movement);
             }
         }
 

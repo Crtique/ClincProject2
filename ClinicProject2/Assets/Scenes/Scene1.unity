@@ -781,8 +781,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b14e9d61fc254341ac8286d18ff3f81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  movement: 2
+  speed: 10
+  movement: 10
   jumpHeight: 4
   gravity: -19.81
   groundCheck: {fileID: 1953716876}

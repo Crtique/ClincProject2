@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|c:\\users\\je4vo\\documents\\github\\clincproject2\\clinicproject2\\assets\\scripts\\infiniteground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infiniteground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InfiniteGround.cs",
+              "DocumentMoniker": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\InfiniteGround.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InfiniteGround.cs",
+              "ToolTip": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\InfiniteGround.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InfiniteGround.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T19:50:39.982Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,7 +49,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
               "ToolTip": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T02:17:48.716Z",
               "EditorCaption": ""
@@ -45,7 +62,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControl.cs",
               "ToolTip": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\PlayerControl.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerControl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T01:49:28.643Z",
               "EditorCaption": ""
