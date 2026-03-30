@@ -26,6 +26,7 @@ public class PlayerControl : MonoBehaviour
 
     [Header("Controller")]
     [SerializeField] CharacterController controller;
+    [SerializeField] Animator ani;
 
     // -- Declare Variables --
     private float leftBound = -4.4f;
@@ -35,6 +36,11 @@ public class PlayerControl : MonoBehaviour
 
     bool isGrounded;
     public bool isCrouching;
+
+    // -- Animations --
+    bool isSliding;
+    bool isJumping;
+    bool isDeath;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -50,8 +56,16 @@ public class PlayerControl : MonoBehaviour
         PlayerMove();
         Jump();
         Crouch();
-    }
 
+        // Animation method
+        Animation();
+    }
+    void Animation()
+    {
+        ani.SetBool("isSliding", isSliding);
+        ani.SetBool("isDeath", isDeath);
+        ani.SetBool("isJumping", isJumping);
+    }
     // -- Player Movement Function -- //
     void PlayerMove()
     {
@@ -90,7 +104,12 @@ public class PlayerControl : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.W) && isGrounded || Input.GetKeyDown(KeyCode.UpArrow) && isGrounded)
         {
+            isJumping = true;
             velocity.y = Mathf.Sqrt(jumpHeight * -2 * gravity);
+        }
+        else
+        {
+            isJumping = false;
         }
     }
     // Make the player "Slide"
@@ -99,14 +118,25 @@ public class PlayerControl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftControl) || Input.GetKeyDown(KeyCode.DownArrow))
         {
             isCrouching = true;
+            isSliding = true;
             controller.height = crouchHeight;
             controller.center = new Vector3(originalCenter.x, crouchHeight / 2, originalCenter.z);        
         }
         else if (Input.GetKeyUp(KeyCode.LeftControl) || Input.GetKeyUp(KeyCode.DownArrow))
         {
             isCrouching = false;
+            isSliding = false;
             controller.center = originalCenter;
             controller.height = originalHeight;
+        }
+    }
+
+    // Check for death
+    public void OnTriggerEnter(Collider col)
+    {
+        if (col.CompareTag("Obstacle"))
+        {
+            isDeath = true;
         }
     }
 }

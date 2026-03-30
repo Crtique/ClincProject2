@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|c:\\users\\je4vo\\documents\\github\\clincproject2\\clinicproject2\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|c:\\users\\je4vo\\documents\\github\\clincproject2\\clinicproject2\\assets\\scripts\\detectcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +11,24 @@
       "RelativeMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\assets\\scripts\\infiniteground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infiniteground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\assets\\scripts\\infiniteground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\infiniteground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\assets\\scripts\\restart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45496A39-48E9-D35A-ED98-3F792A0D7D46}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\restart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +46,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "Restart.cs",
+              "DocumentMoniker": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\Restart.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Restart.cs",
+              "ToolTip": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\Restart.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Restart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T14:40:25.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -55,20 +71,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DetectCollision.cs",
               "DocumentMoniker": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\DetectCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DetectCollision.cs",
               "ToolTip": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\DetectCollision.cs",
               "RelativeToolTip": "Assets\\Scripts\\DetectCollision.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-26T14:09:29.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
@@ -76,11 +92,12 @@
               "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T04:01:11.932Z"
+              "WhenOpened": "2026-03-18T04:01:11.932Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "InfiniteGround.cs",
               "DocumentMoniker": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\InfiniteGround.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InfiniteGround.cs",
@@ -88,7 +105,8 @@
               "RelativeToolTip": "Assets\\Scripts\\InfiniteGround.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T19:50:39.982Z"
+              "WhenOpened": "2026-03-01T19:50:39.982Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -100,19 +118,21 @@
               "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T02:17:48.716Z"
+              "WhenOpened": "2026-03-01T02:17:48.716Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PlayerControl.cs",
               "DocumentMoniker": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\PlayerControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerControl.cs",
               "ToolTip": "C:\\Users\\je4vo\\Documents\\GitHub\\ClincProject2\\ClinicProject2\\Assets\\Scripts\\PlayerControl.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerControl.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAiwBMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwBMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T01:49:28.643Z"
+              "WhenOpened": "2026-03-01T01:49:28.643Z",
+              "EditorCaption": ""
             }
           ]
         }

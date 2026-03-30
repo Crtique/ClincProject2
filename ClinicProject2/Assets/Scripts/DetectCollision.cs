@@ -2,12 +2,10 @@ using UnityEngine;
 
 public class DetectCollision : MonoBehaviour
 {
-    public PlayerControl movement;
-    private void OnTriggerEnter(Collider other)
+    public void OnTriggerEnter(Collider col)
     {
-        if (other.CompareTag("Obstacle"))
+        if (col.CompareTag("Player"))
         {
-            movement.enabled = false;
             GameManager gameManager = Object.FindFirstObjectByType<GameManager>();
             if (gameManager != null)
             {
