@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7c3b487e518dc904b842eff502b28024
+guid: c1e7e4e85bc60e24895d9600cbb2b9d6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -350,18 +350,18 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: Run(Clone)
+    - name: unwrapped(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: knight
-      parentName: Run(Clone)
+      parentName: unwrapped(Clone)
       position: {x: -0, y: 4.870018, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 0.01, y: 0.01, z: 0.01}
     - name: Root
-      parentName: Run(Clone)
+      parentName: unwrapped(Clone)
       position: {x: -0.0027611556, y: 2.8288841, z: 0}
       rotation: {x: -0.5006771, y: 0.49932206, z: -0.49932206, w: 0.50067705}
       scale: {x: 0.009999999, y: 0.009999999, z: 0.009999999}
